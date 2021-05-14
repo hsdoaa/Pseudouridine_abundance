@@ -6,4 +6,4 @@ predict Pseudouridine sites on the complete RNA sequence of Hela and Hek293 cell
 -The labeled dataset of direct RNA Nanopore sequence of the cell line with predifined Pseudouridine locations
 -The unlabled dataset with of direct RNA Nanopore sequence of the cell line with undetermined Pseudouridine locations
 
-2- run Pseudouridine_unique_locations.py to get  the unique genomic locations of Pseudouridine sites in the complete RNA direct RNA Nanopore sequence of any cell line
+2- run Pseudouridine_unique_locations.py to get  the unique genomic locations of Pseudouridine sites in the complete RNA sequence of any cell line assuming that you already got all the genomic locations of Pseudouridine sites in the complete direct RNA Nanopore sequence of that cell line in the previous step using predict_Pseudouridine_sites.py.
